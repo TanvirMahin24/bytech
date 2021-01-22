@@ -77,5 +77,8 @@
 #wwd .card_primary {
   transform: translate(-100px, 0);
   border-right: none;
+  border-left: 5px solid var(--white);
+}
+#wwd .card_primary:hover {
   border-left: 5px solid var(--primary);
 }
