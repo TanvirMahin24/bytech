@@ -111,3 +111,17 @@
   transition: 0.3s all ease-in-out;
 }
 /* PROFILE CARD END */
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+  .section {
+    flex-direction: column;
+  }
+  #wwd .card_primary {
+    transform: translate(0, 0);
+  }
+}
+/* MOBILE RESPONSIVE END */
