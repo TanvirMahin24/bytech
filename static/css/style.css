@@ -111,6 +111,55 @@
   transition: 0.3s all ease-in-out;
 }
 /* PROFILE CARD END */
+/* CONTACT */
+#contact .contact_element {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#contact .contact_element .right_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 2rem;
+  color: var(--primary);
+}
+#contact .contact_element .left_contact {
+  padding-right: 10px;
+  border-right: 1px solid var(--white);
+}
+
+.form-group > label {
+  top: 38px;
+  left: 0px;
+  position: relative;
+  color: var(--primary);
+  padding: 0px 5px 0px 5px;
+  font-size: 1.1em;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+.form-group.label-animate > label {
+  top: 18px !important;
+  left: 16px !important;
+  font-size: 0.9em;
+}
+.form-group .form-control {
+  background: none !important;
+  border: none;
+  border-radius: 0;
+  color: var(--white);
+  border-bottom: 1px solid var(--white);
+}
+.form-group .form-control:focus {
+  box-shadow: none;
+  border-bottom: 1px solid var(--primary);
+  transition: 0.2s all ease-in-out;
+}
+
+/* CONTACT END */
 
 /* MOBILE RESPONSIVE */
 @media screen and (max-width: 768px) {
