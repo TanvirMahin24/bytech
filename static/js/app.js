@@ -57,7 +57,7 @@ const options = {
   },
 
   title: {
-    text: "Our Projects by Technologies",
+    text: "Our Projects",
     align: "center",
     margin: 20,
     offsetY: 20,

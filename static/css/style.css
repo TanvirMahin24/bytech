@@ -181,8 +181,15 @@
   .order2 {
     order: 1;
   }
+  #hero .right_side {
+    flex: 0;
+  }
   #wwd .card_primary {
     transform: translate(0, 0);
+  }
+  #wwd .card_primary .col-md-3 img {
+    width: 40% !important;
+    padding-bottom: 20px;
   }
 }
 /* MOBILE RESPONSIVE END */
