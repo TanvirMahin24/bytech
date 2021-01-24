@@ -123,8 +123,10 @@
   justify-content: center;
   align-items: center;
   padding-left: 10px;
-  font-size: 2rem;
   color: var(--primary);
+}
+#contact .contact_element .right_contact img {
+  width: 50px;
 }
 #contact .contact_element .left_contact {
   padding-right: 10px;
