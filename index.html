@@ -271,9 +271,9 @@
           >If you have any question feel free to contact</span
         >
         <div class="row pt-5">
-          <div class="col-md-4 text-light my-auto pr-5">
+          <div id="infos" class="col-md-4 text-light my-auto pr-5 order1">
             <div class="contact_element py-4">
-              <div class="left_contact text-right">
+              <div class="left_contact text-md-right text-center">
                 <span class="d-block lead">Phone</span>
                 <span class="d-block">+8801773688896</span>
               </div>
@@ -300,7 +300,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 order2">
             <!-- FORM -->
             <form action="">
               <div class="row">
@@ -309,10 +309,13 @@
                     <label for="nameField" class="bmd-label-floating"
                       >Name</label
                     >
-                    <input type="text" class="form-control" id="nameField" />
-                    <span class="bmd-help"
-                      >We'll never share your email with anyone else.</span
-                    >
+                    <input
+                      type="text"
+                      required
+                      name="name"
+                      class="form-control"
+                      id="nameField"
+                    />
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -320,10 +323,13 @@
                     <label for="EmailField" class="bmd-label-floating"
                       >Email address</label
                     >
-                    <input type="email" class="form-control" id="EmailField" />
-                    <span class="bmd-help"
-                      >We'll never share your email with anyone else.</span
-                    >
+                    <input
+                      type="text"
+                      required
+                      name="email"
+                      class="form-control"
+                      id="EmailField"
+                    />
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -331,32 +337,40 @@
                     <label for="phoneField" class="bmd-label-floating"
                       >Phone</label
                     >
-                    <input type="text" class="form-control" id="phoneField" />
-                    <span class="bmd-help"
-                      >We'll never share your email with anyone else.</span
-                    >
+                    <input
+                      type="text"
+                      name="phone"
+                      class="form-control"
+                      id="phoneField"
+                    />
                   </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 pt-4">
                   <div class="form-group">
                     <label for="subjectField" class="bmd-label-floating"
                       >Subject</label
                     >
-                    <input type="text" class="form-control" id="subjectField" />
-                    <span class="bmd-help"
-                      >We'll never share your email with anyone else.</span
-                    >
+                    <input
+                      type="text"
+                      required
+                      name="subject"
+                      class="form-control"
+                      id="subjectField"
+                    />
                   </div>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 pt-4">
                   <div class="form-group">
                     <label for="subjectField" class="bmd-label-floating"
-                      >Subject</label
+                      >Message</label
                     >
-                    <input type="text" class="form-control" id="subjectField" />
-                    <span class="bmd-help"
-                      >We'll never share your email with anyone else.</span
-                    >
+                    <input
+                      type="text"
+                      required
+                      name="message"
+                      class="form-control"
+                      id="subjectField"
+                    />
                   </div>
                 </div>
               </div>

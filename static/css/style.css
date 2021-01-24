@@ -41,6 +41,7 @@
   flex: 1;
   /* background: var(--dark); */
 }
+
 #hero .left_side a {
   color: var(--white);
   font-size: 1.2rem;
@@ -153,12 +154,15 @@
   color: var(--white);
   border-bottom: 1px solid var(--white);
 }
-.form-group .form-control:focus {
+.form-group .form-control:focus,
+.form-group .form-control:active,
+.form-group .form-control:-webkit-autofill {
+  background: none;
+  color: var(--white);
   box-shadow: none;
   border-bottom: 1px solid var(--primary);
   transition: 0.2s all ease-in-out;
 }
-
 /* CONTACT END */
 
 /* MOBILE RESPONSIVE */
@@ -168,6 +172,12 @@
   }
   .section {
     flex-direction: column;
+  }
+  .order1 {
+    order: 2;
+  }
+  .order2 {
+    order: 1;
   }
   #wwd .card_primary {
     transform: translate(0, 0);
