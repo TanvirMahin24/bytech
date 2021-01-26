@@ -166,7 +166,7 @@
   transition: 0.2s all ease-in-out;
 }
 .submit_button {
-  margin-top: 30px;
+  margin-top: 20px;
   background: none;
   color: var(--white);
   padding: 10px;
@@ -181,6 +181,33 @@
   transition: 0.3s all ease-in-out;
 }
 /* CONTACT END */
+
+/* FOOTER */
+#footer .d-flex {
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#footer .d-flex .footer_link {
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: var(--white);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid var(--primary);
+  text-decoration: none;
+  transition: 0.3s all ease-in-out;
+}
+#footer .d-flex .footer_link:hover {
+  text-decoration: none;
+  color: var(--primary);
+  transition: 0.3s all ease-in-out;
+}
+/* FOOTER ENd */
 
 /* MOBILE RESPONSIVE */
 @media screen and (max-width: 768px) {
