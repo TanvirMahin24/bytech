@@ -8,6 +8,7 @@
   --dark: #222222 !important;
   --dark-70: #3e3e3e70 !important;
   --primary: #fd294e !important;
+  --primary-50: #fd294c8f !important;
   --secondary: #3e3e3e !important;
 }
 .team-name {
@@ -83,6 +84,39 @@
 #wwd .card_primary:hover {
   border-left: 5px solid var(--primary);
 }
+
+/* PROJECTS */
+.project_card {
+  position: relative;
+  z-index: 5;
+  border: 2px solid var(--primary);
+}
+#projects .project_card .display-3 {
+  position: relative;
+  z-index: 6;
+}
+#projects .box {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  background: var(--primary);
+  /* transform: translate(0, -50px); */
+}
+#projects .inner_box {
+  position: absolute;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  border: 1px solid var(--primary-50);
+  /* background: var(--primary-50); */
+  transform: translate(10px, -60px);
+}
+/* PROJECTS END */
+
 /* PROFILE CARD */
 .profile_card {
   background: var(--dark);
