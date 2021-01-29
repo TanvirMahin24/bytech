@@ -115,6 +115,27 @@
   /* background: var(--primary-50); */
   transform: translate(10px, -60px);
 }
+#project_links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#project_links a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid var(--primary); */
+  color: var(--white);
+  font-size: 16px;
+  transition: 0.3s all ease-in-out;
+}
+#project_links a:hover {
+  text-decoration: none;
+  color: var(--primary);
+  transition: 0.3s all ease-in-out;
+}
 /* PROJECTS END */
 
 /* PROFILE CARD */
