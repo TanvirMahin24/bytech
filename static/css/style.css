@@ -8,7 +8,7 @@
   --dark: #222222 !important;
   --dark-70: #3e3e3e70 !important;
   --primary: #fd294e !important;
-  --primary-50: #fd294c8f !important;
+  --primary-50: #fd294c6c !important;
   --secondary: #3e3e3e !important;
 }
 .team-name {
@@ -88,12 +88,19 @@
 /* PROJECTS */
 .project_card {
   position: relative;
+  height: 100%;
   z-index: 5;
+  transition: 0.3s all ease-in-out;
   border: 2px solid var(--primary);
 }
 #projects .project_card .display-3 {
   position: relative;
   z-index: 6;
+}
+#projects .project_card img {
+  width: 80px;
+  float: right;
+  transform: translate(0, -20px);
 }
 #projects .box {
   position: relative;
@@ -105,6 +112,10 @@
   height: 70px;
   background: var(--primary);
   /* transform: translate(0, -50px); */
+}
+#projects .project_card:hover {
+  background: var(--primary-50);
+  transition: 0.3 all ease-in-out;
 }
 #projects .inner_box {
   position: absolute;
@@ -119,6 +130,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
 #project_links a {
   width: 30px;
